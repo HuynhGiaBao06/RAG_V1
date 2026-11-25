@@ -1,0 +1,49 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+conda-env/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Original documents: may be large, copyrighted, or private
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated extraction results
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated databases and vectors
+data/storage/*
+!data/storage/.gitkeep
+
+# Local model and Hugging Face caches, if placed in the project
+.cache/
+models/
+huggingface/
+
+# Logs and temporary files
+*.log
+*.tmp
+temp/
+tmp/

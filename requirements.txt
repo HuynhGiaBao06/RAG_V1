@@ -1,0 +1,9 @@
+# Runtime dependencies
+google-genai
+numpy
+pymupdf4llm
+python-dotenv
+sentence-transformers
+
+# Development and testing
+pytest
